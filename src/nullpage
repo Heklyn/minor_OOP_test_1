@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigO нотация</title>
+    <link rel="icon" href="icons/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/_ general_style.css">
+</head>
+<body>
+    <header class="header">HeaderHeader</header>
+    <script src="js/includeheader.js"></script>
+
+
+    <div class="page_head-wrapper">
+        <p class="page_head"></p>
+    </div>
+
+    <nav class="nav">
+        <p class="nav__head">Содержание</p>
+        <ul class="nav__list">
+            <li class="nav__elem"><a href=""></a></li>
+                <ol>
+                    <li class="nav__item"><a href="#p4_p1"></a></li>
+                    <li class="nav__item"><a href="#p4_p2"></a></li>
+                    <li class="nav__item"><a href="#p4_p3"></a></li>
+                    <li class="nav__item"><a href="#p4_p4"></a></li>
+                    <li class="nav__item"><a href="#p4_p5"></a></li>
+                </ol>
+            </li>
+    </nav>
+
+    <div class="content">
+        <div class="content__item" id="p0_p1">
+            <p class="content__title"></p>
+            <p class="content__text"></p>
+        </div>
+
+        <div class="content__item" id="p0_p2">
+            <p class="content__title"></p>
+            <p class="content__text"></p>
+        </div>
+
+        <div class="content__item" id="p0_p3">
+            <p class="content__title"></p>
+            <p class="content__text"></p>
+        </div>
+
+        <div class="content__item" id="p0_p4">
+            <p class="content__title"></p>
+            <p class="content__text"></p>
+        </div>
+
+        <div class="content__item" id="p0_p5">
+            <p class="content__title"></p>
+            <p class="content__text"></p>
+        </div>
+    </div>
+
+    <div class="scroll-to-top" id="scroll-to-top">
+        <img src="icons/arrow.png" alt="Вернуться наверх">
+    </div>
+    <script src="js/header.js"></script>
+    <script src="js/_global.js"></script>
+</body>
+</html>

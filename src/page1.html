@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigO нотация</title>
+    <link rel="icon" href="icons/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/_ general_style.css">
+    <link rel="stylesheet" href="css/img.css">
+    <link rel="stylesheet" href="css/page1.css">
+</head>
+<body>
+    <header class="header">HeaderHeader</header>
+    <script src="js/includeheader.js"></script>
+
+
+    <div class="page_head-wrapper">
+        <p class="page_head">BigO нотация</p>
+    </div>
+
+    <nav class="nav">
+        <p class="nav__head">Содержание</p>
+        <ul class="nav__list">
+            <li class="nav__elem"><a href="page1.html">BigO нотация</a></li>
+                <ol>
+                    <li class="nav__item"><a href="#p1_p1">Что такое БигО нотация</a></li>
+                    <li class="nav__item"><a href="#p1_p2">Оценка верхней границы (Асимптотическая сложность)</a></li>
+                    <li class="nav__item"><a href="#p1_p3">Классы сложности и их обозначения</a></li>
+                    <li class="nav__item"><a href="#p1_p4">Зачем это важно для сортировок</a></li>
+                    <li class="nav__item"><a href="#p1_p5">Заключение</a></li>
+                </ol>
+            </li>
+    </nav>
+
+    <div class="content">
+        <div class="content__item  content__item_block" id="p1_p1" >
+            <p class="content__title">Что такое БигО нотация</p>
+            <p class="content__text">Биг О нотация - это математическая нотация, используемая для оценки производительности алгоритмов. Она позволяет нам выразить, насколько быстро алгоритм растет в зависимости от размера входных данных. Это важный инструмент для сравнения и анализа алгоритмов сортировки.<a href="img_big.html"> Открыть картинку:<br>
+                <img src="img/big_o.png" id="img_mini">
+            </a></p>
+            
+            <figure class="big_o__div">
+                <img src="img/big_o.png" alt="" class="big_o__div__item">
+                <figcaption>Графическая иллюстрация различных BigO</figcaption>
+            </figure>
+
+            
+        </div>
+
+        <div class="content__item" id="p1_p2">
+            <p class="content__title">Оценка верхней границы (Асимптотическая сложность)</p>
+            <p class="content__text">Одним из ключевых понятий Биг О нотации является оценка верхней границы, или асимптотическая сложность. Это позволяет нам определить, как алгоритм ведет себя при бесконечно больших входных данных. Например, алгоритм сортировки, имеющий асимптотическую сложность O(n log n), будет более эффективным при больших объемах данных, чем алгоритм с асимптотической сложностью O(n^2).</p>
+        </div>
+
+        <div class="content__item" id="p1_p3">
+            <p class="content__title">Классы сложности и их обозначения</p>
+            <p class="content__text">Биг О нотация определяет различные классы сложности и обозначения, которые помогают нам классифицировать алгоритмы. Например, O(1) представляет константное время выполнения, O(log n) обозначает логарифмическую сложность, O(n) - линейную и так далее. Эти обозначения позволяют сравнивать и выбирать алгоритмы сортировки в зависимости от их производительности.</p>
+        </div>
+
+        <div class="content__item" id="p1_p4">
+            <p class="content__title">Зачем это важно для сортировок</p>
+            <p class="content__text">В контексте сортировок, Биг О нотация помогает нам определить, какие алгоритмы будут наиболее эффективными в разных сценариях. Она позволяет выбирать наилучший метод сортировки в зависимости от размера данных, которые необходимо упорядочить. Это важно для оптимизации производительности в ваших программных проектах.</p>
+        </div>
+
+        <div class="content__item" id="p1_p5">
+            <p class="content__title">Заключение</p>
+            <p class="content__text">Понимание Биг О нотации является неотъемлемой частью анализа и выбора алгоритмов сортировки. Наш сайт предоставит вам инструменты и знания, необходимые для применения этой важной концепции к сортировкам и максимизации производительности вашего кода.</p>
+        </div>
+    </div>
+
+    <div class="scroll-to-top" id="scroll-to-top">
+        <img src="icons/arrow.png" alt="Вернуться наверх">
+    </div>
+    <script src="js/header.js"></script>
+    <script src="js/_global.js"></script>
+</body>
+</html>
