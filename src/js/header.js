@@ -1,4 +1,4 @@
-window.addEventListener('load', function() {
+document.addEventListener('DOMContentLoaded', function() {
     const nav = document.querySelector('.header__nav');
     nav.addEventListener('mouseover', (event) => {
         if (event.target.classList.contains('header__nav__item')){
